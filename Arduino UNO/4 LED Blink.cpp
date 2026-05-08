@@ -1,12 +1,11 @@
-// Problem Statement:
-// Write an Arduino program to blink 4 LEDs in sequence using Arduino UNO.
+/*Problem Statement:
+Write an Arduino program to blink 4 LEDs in sequence using Arduino UNO.
 
-// Connections:
-// LED1 Anode (+) -> Pin 2 (via 220Ω resistor)
-// LED2 Anode (+) -> Pin 3 (via 220Ω resistor)
-// LED3 Anode (+) -> Pin 4 (via 220Ω resistor)
-// LED4 Anode (+) -> Pin 5 (via 220Ω resistor)
-// All LED Cathodes (-) -> GND
+Connections:
+LED1 Anode (+) -> Pin 2 (via 220Ω resistor)
+LED2 Anode (+) -> Pin 3 (via 220Ω resistor)
+LED3 Anode (+) -> Pin 4 (via 220Ω resistor)
+LED4 Anode (+) -> Pin 5 (via 220Ω resisAll LED Cathodes (-) -> GND*/
 
 int ledPins[] = {2, 3, 4, 5}; // Array of LED pins
 
